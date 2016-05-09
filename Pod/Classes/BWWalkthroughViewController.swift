@@ -122,7 +122,7 @@ At the moment it's only used to perform custom animations on didScroll.
         
         // Initialize UI Elements
         
-        pageControl?.addTarget(self, action: #selector(BWWalkthroughViewController.pageControlDidTouch), forControlEvents: UIControlEvents.TouchUpInside)
+        pageControl?.addTarget(self, action: "pageControlDidTouch:", forControlEvents: UIControlEvents.TouchUpInside)
         
         // Scrollview
         
